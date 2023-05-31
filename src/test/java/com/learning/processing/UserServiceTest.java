@@ -21,7 +21,7 @@ class UserServiceTest {
         userService = new UserServiceImpl();
     }
 
-    @Test
+    @Test1
     void isUserRegisterCorrectly() {
         // Register a new user
         userService.reg(inDB, "Alyaska", "123", 1);
