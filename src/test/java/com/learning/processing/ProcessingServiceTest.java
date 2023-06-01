@@ -1,8 +1,6 @@
 package com.learning.processing;
 
-import com.learning.processing.DB.Account;
 import com.learning.processing.DB.InDB;
-import com.learning.processing.DB.User;
 import com.learning.processing.implement.AccountServiceImpl;
 import com.learning.processing.implement.ProcessingServiceImpl;
 import com.learning.processing.implement.UserServiceImpl;
@@ -11,8 +9,6 @@ import com.learning.processing.interfaces.ProcessingService;
 import com.learning.processing.interfaces.UserService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
-import java.util.HashMap;
 
 import static org.junit.jupiter.api.Assertions.*;
 
